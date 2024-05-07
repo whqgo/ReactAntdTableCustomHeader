@@ -1,3 +1,11 @@
+/*
+ * @Author: whq
+ * @Date: 2024-05-07 10:52:01
+ * @LastEditTime: 2024-05-07 15:24:10
+ * @LastEditors: whq
+ * @Description: 
+ * @FilePath: \reactViteTemp\src\App.tsx
+ */
 import { useEffect, useState } from 'react'
 import './App.css'
 import { Button, Checkbox, Input, InputNumber, Modal, Select, Space, Table } from 'antd';
@@ -215,9 +223,6 @@ function App() {
 
   useEffect(() => {
     if (!taskareaTableColumnsData?.columns) return
-    // console.log(taskareaTableColumnsData.columns, "====taskareaTableColumnsData.columns===");
-    // console.log(workDispatchOrdersData, "====taskareaTableColumnsData.columns===");
-
 
     if (workDispatchOrdersData?.length) {
 
